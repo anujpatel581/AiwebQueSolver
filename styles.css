@@ -1,0 +1,79 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpapers.com/images/high/1366x768-iron-man-background-vqxe7lo3m1mjjji8.webp'); /* Replace with your Iron Man image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Transparent dark background */
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-window {
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-area {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#user-input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: transparent;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ff6a00;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
